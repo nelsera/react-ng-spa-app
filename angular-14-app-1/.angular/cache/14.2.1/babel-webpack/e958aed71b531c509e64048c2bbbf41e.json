@@ -1,0 +1,15 @@
+{
+  "ast": null,
+  "code": "export function noop() {}",
+  "map": {
+    "version": 3,
+    "names": ["noop"],
+    "sources": [
+      "/home/nelson/Repos/bradesco-app/angular-14-app-1/node_modules/rxjs/_esm2015/internal/util/noop.js"
+    ],
+    "sourcesContent": ["export function noop() { }\n"],
+    "mappings": "AAAA,OAAO,SAASA,IAAT,GAAgB,CAAG"
+  },
+  "metadata": {},
+  "sourceType": "module"
+}

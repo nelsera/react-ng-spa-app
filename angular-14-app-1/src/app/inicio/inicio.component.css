@@ -1,0 +1,220 @@
+.inicio--header {
+  background: #dd1847;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  height: 80px;
+  padding: 0 12px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inicio--header mat-icon {
+  color: white;
+  padding: 10px;
+}
+
+.inicio--menu-icon {
+  width: 50px;
+}
+
+.inicio--menu-icon div {
+  display: block;
+  height: 3px;
+  background-color: white;
+  margin: 8px;
+}
+
+.inicio--logo {
+  width: 150px;
+  height: 40px;
+  background: url("../../assets/bradesco.svg") no-repeat;
+  background-size: cover;
+  margin-left: 8px;
+  position: relative;
+  bottom: 4px;
+}
+
+.inicio--conteudo {
+  width: 100%;
+  background-color: #dfdfdf;
+  height: 646px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inicio--servicos {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.inicio--servico {
+  width: 180px;
+  height: 70px;
+  background-color: white;
+  margin: 8px;
+  display: flex;
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  align-items: center;
+  box-shadow: 1px 0px 8px 2px rgba(0, 0, 0, 0.08);
+  transition: all 0.2 ease;
+}
+
+.inicio--servico mat-icon {
+  padding-right: 10px;
+  color: #dd1847;
+}
+
+.inicio--servico:active {
+  box-shadow: none;
+}
+
+.inicio--servicos a {
+  text-decoration: none;
+  color: black;
+}
+
+.inicio--dashboard {
+  background-color: #dd1847;
+  color: white;
+  padding: 0 20px 20px 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.inicio--dashboard-profile {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.468);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.inicio--dashboard-profile-welcome {
+  display: flex;
+  align-items: center;
+}
+
+.inicio--dashboard-profile-welcome-text {
+  padding-left: 4px;
+  position: relative;
+  top: 1px;
+}
+
+.inicio--dashboard-conta {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inicio--dashboard-saldo {
+  font-size: 15px;
+}
+
+.inicio--dashboard-text {
+  margin-bottom: 6px;
+}
+
+.inicio--dashboard-valor {
+  font-weight: 500;
+  display: flex;
+}
+
+.inicio--dashboard-mask {
+  background: #efefef9b;
+  width: 90px;
+  height: 16px;
+  border-radius: 4px;
+  margin: 0 8px;
+}
+
+.inicio--dashboard-valor mat-icon {
+  font-size: 18px;
+}
+
+.inicio--dashboard-extrato {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.712);
+  padding-bottom: 4px;
+}
+
+.inicio--dashboard-extrato mat-icon {
+  font-size: 14px;
+  height: 12px;
+  width: 16px;
+}
+
+.inicio--dashboard-busca {
+  display: flex;
+  position: relative;
+  top: 38px;
+  margin-top: -5px;
+  box-shadow: 1px 0px 8px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.inicio--dashboard-busca input {
+  border: none;
+  padding: 12px 24px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  width: 300px;
+}
+
+.inicio--dashboard-busca input::placeholder {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.inicio--dashboard-busca input:focus {
+  outline: none;
+}
+
+.inicio--dashboard-busca button {
+  border: none;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.inicio--dashboard-busca-search {
+  background-color: white;
+  color: #e71042;
+}
+
+.inicio--dashboard-busca-phone {
+  background-color: #e71042;
+  color: white;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.inicio-mais-servicos {
+  background-color: white;
+  padding: 20px;
+  margin: 0 -10px;
+  width: 100%;
+  margin-top: 37px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #e71042;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 0px 8px 2px rgba(0, 0, 0, 0.08);
+  font-size: 15px;
+}
+
+.inicio-mais-servicos mat-icon {
+  padding-left: 5px;
+}

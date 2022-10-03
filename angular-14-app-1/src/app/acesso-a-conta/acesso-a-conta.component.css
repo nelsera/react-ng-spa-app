@@ -1,0 +1,107 @@
+.inicio--header {
+  background: #dd1847;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  min-width: 1024px;
+  max-width: 1440px;
+  height: 80px;
+  padding: 0 12px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.inicio--menu-icon {
+  width: 50px;
+}
+
+.inicio--menu-icon div {
+  display: block;
+  height: 3px;
+  background-color: white;
+  margin: 8px;
+}
+
+.inicio--title {
+  margin-left: 24px;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.recarga--container {
+  padding: 16px;
+}
+
+.recarga--title {
+  color: #dd1847;
+  font-weight: bold;
+}
+
+.recarga--arrow-back mat-icon {
+  color: white;
+  font-size: 30px;
+}
+
+.acesso-a-conta--container {
+  background: #dd1847;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 40px 20px 300px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.acesso-a-conta--form {
+  border-radius: 30px;
+  position: relative;
+  bottom: 30px;
+  background-color: white;
+  padding: 30px 20px;
+}
+
+.acesso-a-conta--form input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px 0;
+  outline: none;
+}
+
+.acesso-a-conta--form-bottom-label {
+  color: rgb(93, 93, 93);
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.acesso-a-conta--form-bottom-link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  display: block;
+}
+
+.acesso-a-conta--form button {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  background-color: #dd1847;
+  margin-top: 180px;
+}
+
+.acesso-a-conta--form button a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}

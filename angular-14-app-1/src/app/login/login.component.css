@@ -1,0 +1,117 @@
+.inicio--header {
+  background: #dd1847;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  height: 80px;
+  padding: 0 12px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inicio--header mat-icon {
+  color: white;
+  padding: 10px;
+}
+
+.inicio--menu-icon {
+  width: 50px;
+}
+
+.inicio--menu-icon div {
+  display: block;
+  height: 3px;
+  background-color: white;
+  margin: 8px;
+}
+
+.inicio--logo {
+  width: 150px;
+  height: 40px;
+  background: url("../../assets/bradesco.svg") no-repeat;
+  background-size: cover;
+  margin-left: 8px;
+  position: relative;
+  bottom: 4px;
+}
+
+.login--conteudo {
+  width: 100%;
+  background-color: #dd1847;
+  height: 816px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.login--minha-conta {
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+
+.login-dados {
+  color: white;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.login-dados-agencia {
+  padding-right: 20px;
+}
+
+.login--button {
+  border: none;
+  border-radius: 20px;
+}
+
+.login--button a {
+  text-decoration: none;
+  color: #dd1847;
+  padding: 14px;
+  font-size: 15px;
+  display: block;
+  font-weight: 600;
+}
+
+.login--outros {
+  color: white;
+  display: flex;
+  text-align: center;
+}
+
+.login--outros-button {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  flex-direction: column;
+  margin-bottom: 15px;
+  padding: 20px 10px 0;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.login--outros-button mat-icon {
+  margin-bottom: 10px;
+}
+
+.login--outros-button.bia {
+  border: 1px solid rgba(255, 255, 255, 0.664);
+  margin: 0 10px 0 30px;
+  height: 70px;
+}
